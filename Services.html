@@ -1,261 +1,219 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>stay page</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <style>
-            body{
-                margin:0;
-                padding: 0;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 15px;
-            }
-            header{
-                height: 100px;
-                position: fixed;
-                background: whitesmoke;
-                width: 100%;
-            }
-            .logo{
-                float:left;
-                margin-left:10%;
-            }
-            .logo a {
-                color: #000;;
-                font-size: 30px;
-                margin-top: 25px; ;
-                display: block;
-                text-decoration: none;
-            }
-            .menu {
-                float:right;
-                margin-right: 10%;
-                margin-top: 35px;
-            }
-            .menu ul {
-                margin: 0px;
-                padding: 0px;
-                list-style: none;
-            }
-            .menu ul li {
-                float:left;
-            }
-            .menu ul li a {
-                color:#111;
-                text-decoration: none;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            /*
-            h1{
-                margin-left: 150px;
-                font-size: 60px;
-                font-family: 'karla',sans-serif;
-                font-weight: ;
-            }*/
-            .text{
-                width: 100%;
-                height: 70vh;
-                background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(photos/stay5.jpg);
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color:#fff;
-                font-size:2vw;
-            }
-            .camping{
-                margin-left: 20px;
-            }
-            .column{
-                margin-left: 50px;
-              margin: 20px;
-             width: 800px;
-             height: 500px;
-             box-shadow: -1px 0 10px #000000;
-             align-items: center;
-             text-align: center;
-            }
-            .detailed{
-                width:80%;
-                margin:auto;
-                text-align:center;
-                padding-top:70px;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-               <a href="#"><b>ZONDELA</b><br>exclusive wild reserve</a>
-            </div><!--logo-->
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="Blog.html">BlOG</a></li> 
-                        <li><a href="Services.html">SERVICES</a></li>
-                        <li><a href="about.html">ABOUT US</a></li>
-                        <li><a href="contacts.html">CONTACT US</a></li>
-                    </ul>
-                </nav>
+  <head>
+    <meta charset="UTF-8">
+    <title>M.computers - Services</title>
+    <style>   /* Basic styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Header styles */
+      header {
+        background-color:#0000ff;
+        color: #0000ff;
+        padding: 10px 20px;
+      }
+      
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav li:last-child {
+        margin-right: 0;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Main styles */
+      main {
+        padding: 20px;
+      }
+      
+      h1, h2, h3 {
+        margin-top: 0;
+      }
+      
+      h2 {
+        font-size: 2rem;
+      }
+      
+      section {
+        margin-bottom: 50px;
+      }
+      
+      ul li {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      
+      ul li h3 {
+        margin-top: 0;
+      }
+      
+      ul li p {
+        margin-bottom: 10px;
+      }
+      
+      /* Payment gateway styles */
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+      }
+      
+      form label {
+        margin-bottom: 10px;
+      }
+      
+      form input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      
+      form button {
+        align-self: flex-start;
+      }
+      
+      /* Text animation */
+      .animate-text {
+        animation-duration: 4.5s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-right: : : : 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-right: : 0%;
+          width: 100%;
+        }
+      }</style>
+  </head>
+  <body background="windows-11-logo.jpg">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+           <li><a href="contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+     <center><h1 class="animate-text direction="right">Product and Services Offered</h1></center>
+      <section>
+        <ul>
+          <li>
+            <h3>Computer Repair</h3>
+            <p>We offer a wide range of computer repair services, including virus removal, hardware upgrades, and software installation.</p>
+            <p><strong>Price:</strong> M50.00 per hour</p>
+          </li>
+          <li>
+            <h3>Data Recovery</h3>
+            <p>We can recover data from a variety of devices, including hard drives, USB drives, and SD cards</p>
+            <p><strong>Price:</strong> Starting at M100.00</p>
+          </li>
+          <li>
+            <h3>Networking</h3>
+            <p>We can set up and maintain your home or business network, including routers, switches, and access points.</p>
+            <p><strong>Price:</strong> M75.00 per hour</p>
+          </li>
+          <li>
+            <h3>Leptops</h3>
+            <P>we sale the following modern Laptops</P>
+           <p> <b>1)ASUS core i7</b></p>
+           <p><strong>Price:</strong>M90000.00</p>
+           <p><b>2)HP intel inside</b></p>
+           <p><strong>Price:</strong>M5000.00 </P><br>
+            <h3>flash Drives</h3>
+            <p>We currently have the following dlash drives</p>
+            <p><b>1)8GB</b></p>
+            <P><strong>Pice:</strong>M90.00</P>
+            <p><b>2) 16GB</b></p>
+            <p><strong>price:</strong>M120.00</p>
 
-            </div><!--MENU-->
-        </header>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="text">
-            <h1>stay with us<br>ALL OUR CAMPSITES SITES ARE NOW GLAMPING SITES</h1>
-        </div>
-        <br>
-        <section class="camping">
-            <h2>camping options</h2>
-            <br>
-            <p>
-                
-If you do not want to spend hours setting up camp, then our self-catering tented campsites are the perfect alternative.  Situated on the banks of the Haarlem dam, our comfortable dome-style tents will ensure you enjoy a genuine “glamping” experience, complete with your private bathroom and fully equipped kitchenette.  To end off your day, soak up the African sunset from your outdoor wood-fired hot tub.  At night, look upon a clear sky and be dazzled by the bright constellations of the southern hemisphere.
 
-            </p>
-            <br>
-            <p>ZONDELA offers its guests the following:</p>
-        </section>
-        <div class="row">
-            <div class="column">
-              <img src="photos/haalem1.jpg">
-                <h3>Haarlem 1</h3>
-              <p>self-catering Glamping</p>
-              <br>
-              <p>from<b>R500</b>/night<br>*for 4 people and 1 vehicle</p>
-              <p>accomodates 2-8 people</p> 
-                <a href="#" class="btn">READ MORE</a>
-            </div>
-            <div class="column">
-              <img src="photos/haalem2.jpg">
-              <h3>Haarlem 2</h3>
-              <p>self-catering Glamping</p>
-              <br>
-              <p>from<b>R800</b>/night<br>*for 4 people and 1 vehicle</p>
-              <p>accomodates 2-10 people</p>
-              <a href="#" class="btn">READ MORE</a>
-            </div>
-            <div class="column">
-              <img src="photos/haalem3.jpg">
-              <h3>Haarlem 3</h3>
-              <p>self-catering Glamping</p>
-              <br>
-              <p>from<b>R1,200</b>/night<br>*for 4 people and 1 vehicle</p>
-              <p>accomodates 2-12 people</p>
-              <a href="#" class="btn">READ MORE</a>
-            </div>
-            <div class="column">
-              <img src="photos/haalem4.jpg">
-              <h3>Haarlem 4</h3>
-              <p>self-catering Glamping</p>
-              <br>
-              <p>from<b>R350</b>/night<br>*for 4 people and 1 vehicle</p>
-              <p>accomodates 2-5 people</p>
-              <a href="#" class="btn">READ MORE</a>
-            </div>
-       </div>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <section class="detailed">
-        <h2>Detailed Rates</h2>
-        <p>Also see our discounted offers for off-peak, week, midweek, and weekend accommodation</p>
-        </section>
-           <div class="row">
-               <div class="column">
-                   <h3>WEEKEND SPECIAL</h3>
-                   <img src="photos/stay3.jpeg">
-                   <P>
-                       Only pay half price for sunday<br><br>IN ON FRIDAY-OUT ON MONDAY<br>
-                       excluding school holidays,public & long weekends
-                   </P>
-                   <a href="#" class="btn">ENQUIRE NOW</a>
-               </div>
-               <div class="column">
-                <h3>MID WEEK SPECIAL</h3>
-                <img src="photos/stay4.jpg">
-                <P>
-                    stay for 4 nights & only pay for 3<br><br>IN ON MONDAY-OUT ON FRIDAY<br>
-                    excluding school holidays,public & long weekends
-                </P>
-                <a href="#" class="btn">ENQUIRE NOW</a>
-            </div>
-            <div class="column">
-                <h3>FULL WEEK SPECIAL</h3>
-                <img src="photos/luxury.jpg">
-                <P>
-                    stay for 7 & only pay for 5 nights<br><br>BOOK FOR 7 NIGHTS<br>
-                    excluding school holidays,public & long weekends
-                </P>
-                <a href="#" class="btn">ENQUIRE NOW</a>
-            </div>
-            <div class="column">
-                <h3>BOOKING AVAILABLE</h3>
-                <img src="photos/stay1.jpg">
-                <P>
-                    Please do your bookings before you come<br><br>BOOK EVERY TIME<br>
-                    come and enjoy the outdoors during school holidays,public & long weekends
-                </P>
-                <a href="#" class="btn">BOOK NOW</a>
-            </div>
-           </div>
-        <br>
-        <br>
-        <!--<p>come and enjoy the outdoors in luxury</p>--->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         
-        <footer>
-            <div class="container">
-                <div class="about "> 
-                    <h3>ABOUT US</h3>
-                    <P>
-                        ZONDELA is an eco-friendly family Reserve where guests can feel part of nature whilst experiencing the freedom and lifestyle of a truly natural environment.  All efforts made by the Reserve are to limit the impact on the area and its resources.  Our philosophy is strongly based on the foundation of sustainability, nature conservation, and the serenity that comes from being in nature.
-                    </P>
-                </div>
-                <div class="services ">
-                   <h3> SERVICES</h3>
-                   <h4>we have the following:</h4>
-                <ul>
-                    <li><a href="#">mountain biking</a></li>
-                    <li><a href="#">long range shooting</a></li>
-                    <li><a href="#">fishing</a></li>
-                    <li><a href="#">hunting</a></li>
-                    <li><a href="#">camping</a></li>
-                    <li><a href="#">offroading</a></li>
-                </ul>
-                   <p></p>
-                </div>
-                <div class="contact">
-                   <h3>CONTACT US</h3>
-                   <p>Please feel free to give us a call or pop us an email</p>
-                   <ul>
-                       <li><a>address:Berea, Lesotho</a></li>
-                       <li><a>phone:+266 28 02 1656</a></li>
-                       <li><a>email:info@ZONDELA.com</a></li>
-                   </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>@copyright 2022|All rights reserved|website by T.SEPIRITI</p>
-            </div>
-        </footer>
-</body>
-</html>            
+          <li>
+          
+
+<section>
+  <h2>Product Features</h2>
+  <table>
+    <tr>
+      <th>Feature</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Touch Screen</td>
+      <td>= A high-resolution touch screen that responds quickly to touch inputs.</td>
+    </tr>
+    <tr>
+      <td>Long Battery Life</td>
+      <td>=A powerful battery that lasts up to 10 hours on a single charge.</td>
+    </tr>
+    <tr>
+      <td>Lightweight Design</td>
+      <td>=A thin and lightweight design that makes it easy to carry anywhere.</td>
+    </tr>
+  </table>
+  <p style="text-align: justify;">Our product features have been designed with the customer in mind. We understand that our users value intuitive and responsive touch screens, long battery life, and a lightweight design that makes it easy to use on-the-go. With these features, our product is perfect for busy professionals, students, and anyone who needs a reliable device that can keep up with their lifestyle.</p>
+</section>
+ 
+          </li>
+        </ul>
+      </section>
+
+      <h2 class="animate-text">Payment Gateway</h2>
+      <section>
+        <form>
+            <label for="name">Name on Card:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+            <label for="address"> Address:</label>
+            <textarea ="address" name="address" rows="4" cols="50"></textarea>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <button>Pay Now</button>
+        </form>
+      </section>
+
+    </main>
+  </body>
+</html>
